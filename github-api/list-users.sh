@@ -41,7 +41,7 @@ function list_users_with_read_access {
 
 function helper {
 exp_arg=2
-if [$# -ne $exp_arg]; then
+if [ $# -ne $exp_arg]; then
 echo "Please execute script with requires cmd ars"
 }
 
