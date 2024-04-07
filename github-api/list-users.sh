@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ############
-#helper()
+helper()
 # GitHub API URL
 API_URL="https://api.github.com"
 
@@ -39,11 +39,11 @@ function list_users_with_read_access {
 }
 
 #--
-#function helper(
-#=2
-#if [!# ne $exp_arg]; then
-#echo "Please execute script with requires cmd ars"
-#)
+function helper(
+exp_args=2
+if [!# ne $exp_arg]; then
+echo "Please execute script with requires cmd ars"
+)
 
 # Main script
 
